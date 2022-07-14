@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: century gothic;
+}
+
+body {
+    background-image: url(../imagenes/cruz--cora.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+main {
+    padding: 10px 30px;
+    text-align: center;
+}
+
+.contenedor {
+    padding: 30px 30px;
+    width: 100%;
+    min-width: 300px;
+    max-width: 400px;
+    margin: 70px auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+}
+
+.contenedor_logo {
+    width: 100%;
+    max-width: 400px;
+    margin: 10px auto;
+}
+
+.logo{
+    width: 100%;   
+}
+
+.contenedor_turno {
+    width: 100%;
+    margin-right: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.turno {
+    background-color: rgb(187, 187, 187);
+    width: 100%;
+    max-width: 150px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+    margin: 10px;
+    align-self: center;
+    justify-self: center;
+}
+
+.turno input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin: 5px 5px;
+}
+
+.linea {
+    margin: 40px auto;
+    height: 1px;
+    background: #000;
+    border-radius: 1px;
+}
+
+.check {
+    width: 100%;
+    max-width: 250px;
+    margin: 10px auto;
+}
+
+.check_img{
+    width: 100%;   
+}
+
+.contenedor h2{
+    margin: 20px auto;
+    font-size: 120%;
+}
+
+.contenedor h3{
+    margin: 10px auto;
+    font-size: 100%;
+}
+
+.direccion {
+    margin: 30px auto;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 600px){
+    .contenedor {
+        margin: 30px auto;
+    }
+}
+
+@media (max-width: 470px) {
+
+    .turno {
+        width: 100%;
+        margin-right: 10px;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .turnos_int {
+        background-color: rgb(187, 187, 187);
+        width: 100%;
+        max-width: 150px;
+        border-radius: 5px;
+        padding: 5px;
+        font-size: 16px;
+        margin: 10px;
+        align-self: center;
+        justify-self: center;
+    }
+    
+    .contenedor {
+        margin: 15px auto;
+    }
+}

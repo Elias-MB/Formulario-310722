@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: century gothic;
+}
+
+body {
+    background-image: url(../imagenes/fogata.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+main {
+    padding: 10px 30px;
+}
+
+.form_reg {
+    text-align: center;
+    padding: 15px 25px;
+    padding-bottom: 15px;
+    width: 100%;
+    min-width: 300px;
+    max-width: 800px;
+    margin: 70px auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+}
+
+.contenedor_portada {
+    width: 100%;
+    max-width: auto;
+    margin: 10px auto;
+}
+
+.portada{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.form_reg h3 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #2a6daf;
+}
+
+.datos input {
+    max-width: 500px;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    font-size: 16px;
+    border: outset;
+    outline: none;
+    border-color: rgb(192, 192, 192);
+    border-radius: 5px;
+    border-width: 1.5px;
+    color: #48e;
+}
+
+.listaRed {
+    position: relative;
+    width: 100%;
+    background: #fff;
+    margin: 20px auto;
+    padding: 12px;
+    border: outset;
+    border: solid rgb(136, 136, 136);
+    border-radius: 5px;
+    border-width: 1.5px;
+    outline: none;
+    cursor: pointer;
+    max-width: 350px;
+    color: rgb(92, 92, 92)
+}
+
+.option {
+    font-size: 20px;
+    color: #000;
+}
+
+.a {
+    text-decoration: none;
+}
+
+.select-box {
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+    margin-top: 23px;
+    background: transparent;
+    position: relative;
+}
+
+.select {
+    background: #fff;
+    width: 100%;
+    max-height: 45px;
+    box-shadow: 0px 0px 0px rgba(0,0,0,.16);
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.2s ease all;
+    margin-bottom: 15px;
+    padding: 10px;
+    position: relative;
+    z-index: 200;
+    border: 1px solid transparent;
+    border: 1px solid rgb(136, 136, 136);
+}
+
+.contenido-box {
+    text-align: center;
+    padding-left: 10px;
+}
+
+.titulo-box {
+    font-size: 16px;
+    color: #2a6daf;
+    padding: 3px;
+}
+
+.icon {
+    width: 100%;
+    max-width: 15px;
+}
+
+.options {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,.16);
+    max-height: 150px;
+    overflow: auto;
+    z-index: 100;
+    width: 100%;
+    display: none;
+}
+
+.contenido-option {
+    width: 100%;
+    transition: .2s ease all;
+}
+
+.options .textos .titulo-box{
+    padding: 13px;
+}
+
+.textos .titulo-box {
+    width: 100%;
+}
+
+.escoger_pago {
+    margin-top: 20px; 
+}
+
+.pagos {
+    width: 100%;
+    margin-right: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.boton3{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.pago-tex-tit {
+    background: white;
+    color: #48e;
+    border-radius: 15px;
+    width: 40%;
+    margin: auto;
+}
+
+.pago-qr {
+    width: 100%;
+    padding: 0;
+}
+
+hr {
+    margin: auto;
+    width: 90%;
+    height: 2px;
+    border: none;
+    background-color:#48e;
+}
+
+.pago-tex {
+    padding: 10px;
+}
+
+.boton {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px 2px;
+    margin: 10px auto;
+    border: 1px solid #48e;
+    cursor: pointer;
+    color: #48e;
+}
+
+.boton_sec.azul {
+    background-color: #48e;
+    color: #fff;
+}
+
+.boton_reg {
+    width: 100%;
+    max-width: 150px;
+    margin: 10px auto;
+}
+
+.registrar {
+    position: relative;
+    text-align: center;
+    width: 150px;
+    padding: 17px;
+    background-color: #48e;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 1px #000;
+    font-size: 20px;
+    cursor: pointer;
+    transition-duration: 0.4;
+    overflow: hidden;
+}
+
+.direccion {
+    margin: 30px auto;
+    margin-bottom: 10px;
+}
+
+
+/* AQUÍ EMPIEZAN ALGUNAS ANIMACIONES */
+
+.boton:hover {
+    box-shadow: 0px 0px 3px rgba(6, 11, 20, 0.295);
+}
+
+.registrar:hover {
+    background-color: rgb(55, 124, 228);
+    box-shadow: 0px 0px 3px #000;
+}
+
+.registrar:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.registrar:active::after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+.options .textos:hover{
+    background: #48e;
+}
+
+.options .textos:hover .titulo-box {
+    color: #fff;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    border: 5px solid #fff;
+    box-shadow: inset 0 0 2.5px 2px rgba(0,0,0,.5);
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(
+        45deg,
+        #48e,
+        rgb(137, 216, 252)
+    );
+    border-radius: 5px;
+}
+
+@media (max-width: 600px){
+    .form_reg {
+        margin: 30px auto;
+    }
+}
+
+@media (max-width: 470px) {
+
+    .pagos {
+        width: 100%;
+        margin-right: 10px;
+        padding: 10px;
+        display: grid;
+    }
+    
+    /* .boton {
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        max-width: 140px;
+        border-radius: 5px;
+        font-size: 16px;
+        margin: 10px;
+        align-self: center;
+        justify-self: center;
+    } */
+    
+    .form_reg {
+        margin: 15px auto;
+    }
+}
+
+/*Funcion para JS*/
+
+.botonSeleccionado {
+    background-color: #48e;
+    color: #fff;
+    transition: 600ms;
+}
+
+.botonSeleccionado hr {
+    transition: 600ms;
+    background-color:#fff;
+}
+
+.select.active, .select:hover {
+    box-shadow: 0px 5px 10px rgba(0,0,0,.16);
+    border: 1px solid #48e;
+}
+
+.select.active::before {
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    border-top: 10px solid #48e;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid transparent;
+    position: absolute;
+    bottom: -20px;
+    left: calc(50% - 14px)
+}
+
+.options.active {
+    display: block;
+}
+
+@media (max-width: 740px){
+    .pagos {
+        width: 100%;
+        margin-right: 10px;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .boton3{
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+}
+
+@media (max-width: 550px){
+    .form_reg {
+        max-width: 400px;
+    }
+    main {
+        padding: 10px 10px;
+    }
+    .form_reg {
+        margin: 0;
+    }
+}
